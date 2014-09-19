@@ -1,0 +1,12 @@
+def f(n):
+  t = n
+  ls = []
+  flag = False
+  for i in range(2, n/2):
+    while n%(i)==0 and i <= t/2:
+      flag = True
+      n = n/(i)
+    if flag == True:
+      ls += [i]
+      flag = False
+  return ls
