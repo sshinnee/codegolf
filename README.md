@@ -7,7 +7,7 @@ f(t:string, s:string, n:integer) -> i:integer
 Return the index i, of the nth occurrence of s in t.
 ```
 
-## Q2 Ka-re
+## Q2. Ka-re
 
 ```
 f(x: () -> int, y: ‘a -> ‘a) -> g: () -> ‘a
@@ -16,7 +16,7 @@ n is the value returned by x.
 ```
 
 
-## Q3 Hactor
+## Q3. Hactor
 
 ```
 f(n:integer) -> ()
@@ -24,7 +24,7 @@ Print a comma-separated list of all non-repeating prime factors of n
 in ascending order.
 ```
 
-## Q4 Under The Bridge
+## Q4. Under The Bridge
 
 ```
 f(l:list[int])
